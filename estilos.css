@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(82, 92, 84);
+    font-family: calibri;
+}
+header {
+    background: white;
+    width: 900%;
+    clear:both; 
+    content : " ";
+    display : table;
+}
+.menu {
+    width: 1250px;
+    margin: o auto;
+}
+#logo  { 
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 8px;
+
+}
+nav {
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 85px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#444;
+    font-weight: bold;
+}
+
+nav ul li a::before {
+    width: 100%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    content: "";
+}
+
+#titulo{
+    background-color: black;
+}
+
+.h4{
+    color: beige;
+}
